@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dark Mode Pro — Dark Mode for Every Website</title>
+  <meta name="description" content="Dark Mode Pro Chrome Extension — Protect your eyes with a beautiful night mode experience on every website." />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════
+       NAVBAR
+  ═══════════════════════════════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <span class="logo-icon">🌙</span>
+        <span>Dark Mode <strong>Pro</strong></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#demo">Demo</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#screenshots">Screenshots</a></li>
+        <li><a href="#privacy">Privacy</a></li>
+      </ul>
+      <a href="https://chrome.google.com/webstore/detail/hpbkiggklpobhejpalalbepfebmpehap" target="_blank" class="btn btn-primary nav-cta">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"/></svg>
+        Add to Chrome
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════
+       HERO
+  ═══════════════════════════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-glow"></div>
+    <div class="hero-bg-grid"></div>
+    <div class="container hero-inner">
+      <div class="hero-text reveal">
+        <div class="badge">✨ 500,000+ Happy Users</div>
+        <h1>Dark Mode for<br /><span class="gradient-text">Every Website</span></h1>
+        <p class="hero-sub">Protect your eyes with a beautiful night mode experience. Intelligent, customizable, and works everywhere — automatically.</p>
+        <div class="hero-cta-group">
+          <a href="https://chrome.google.com/webstore/detail/hpbkiggklpobhejpalalbepfebmpehap" class="btn btn-primary btn-lg">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Add to Chrome — It's Free
+          </a>
+          <a href="#demo" class="btn btn-ghost btn-lg">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+            Watch Demo
+          </a>
+        </div>
+        <div class="hero-trust">
+          <div class="stars">★★★★★</div>
+          <span>4.9/5 from 12,000+ reviews</span>
+        </div>
+      </div>
+      <div class="hero-visual reveal reveal-right">
+        <div class="browser-mockup">
+          <div class="browser-bar">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <div class="browser-url">chrome-extension://darkmodepro</div>
+            <div class="ext-icon">🌙</div>
+          </div>
+          <div class="browser-body">
+            <img src="/images/DMP_Ex7.png" alt="Dark Mode Pro Extension UI" loading="lazy" />
+          </div>
+        </div>
+        <div class="hero-float-badge badge-1">⚡ Instant</div>
+        <div class="hero-float-badge badge-2">🎨 Themes</div>
+        <div class="hero-float-badge badge-3">🔒 Private</div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       STATS BAR
+  ═══════════════════════════════════════ -->
+  <section class="stats-bar">
+    <div class="container stats-inner">
+      <div class="stat-item reveal">
+        <span class="stat-num" data-target="500000">0</span>
+        <span class="stat-label">Active Users</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item reveal">
+        <span class="stat-num" data-target="12000">0</span>
+        <span class="stat-label">5-Star Reviews</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item reveal">
+        <span class="stat-num" data-target="99">0</span>
+        <span class="stat-label">% Sites Supported</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item reveal">
+        <span class="stat-num" data-target="6">0</span>
+        <span class="stat-label">Theme Presets</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       FEATURES
+  ═══════════════════════════════════════ -->
+  <section class="section" id="features">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">Features</div>
+        <h2>Everything You Need for <span class="gradient-text">Comfortable Browsing</span></h2>
+        <p>A complete dark mode toolkit built for power users and casual browsers alike.</p>
+      </div>
+      <div class="features-grid">
+
+        <div class="feature-card reveal">
+          <div class="feature-icon" style="--icon-color: #6c63ff;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </div>
+          <h3>One-Click Dark Mode</h3>
+          <p>Instantly toggle dark mode on any website with a single click. No setup required — works out of the box.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <div class="feature-icon" style="--icon-color: #00d2ff;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+          </div>
+          <h3>Per-Site Control</h3>
+          <p>Remember your preferences per website. Some sites look great in dark, others you prefer light — we handle both.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <div class="feature-icon" style="--icon-color: #f7971e;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          </div>
+          <h3>Brightness & Contrast</h3>
+          <p>Fine-tune brightness and contrast independently for each site. Perfect for reading in any lighting condition.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <div class="feature-icon" style="--icon-color: #11998e;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          </div>
+          <h3>Smart Image Handling</h3>
+          <p>Intelligent image processing keeps photos looking natural while darkening the rest of the page beautifully.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <div class="feature-icon" style="--icon-color: #ee0979;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <h3>Auto Schedule</h3>
+          <p>Set dark mode to activate automatically at sunset and deactivate at sunrise — or define your own custom hours.</p>
+        </div>
+
+        <div class="feature-card reveal">
+          <div class="feature-icon" style="--icon-color: #a18cd1;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <h3>Multiple Themes</h3>
+          <p>Choose from 6 handcrafted themes: Midnight, Sepia, Ocean, Forest, Dusk, and Pure Black. Your eyes, your style.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       DEMO VIDEO
+  ═══════════════════════════════════════ -->
+  <section class="section section-alt" id="demo">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">Demo</div>
+        <h2>See Dark Mode Pro <span class="gradient-text">in Action</span></h2>
+        <p>Watch how effortlessly Dark Mode Pro transforms any website in seconds.</p>
+      </div>
+      <div class="video-wrapper reveal">
+        <div class="video-container">
+          <iframe
+            src="/Video/DarkMode_New.mp4"
+            title="Dark Mode Pro Demo"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            loading="lazy"
+          ></iframe>
+        </div>
+        <div class="video-caption">🎬 See the transformation in real-time — no technical knowledge required</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       HOW IT WORKS
+  ═══════════════════════════════════════ -->
+  <section class="section" id="how-it-works">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">How It Works</div>
+        <h2>Up and Running in <span class="gradient-text">30 Seconds</span></h2>
+        <p>Four simple steps to a more comfortable browsing experience.</p>
+      </div>
+      <div class="steps-grid">
+
+        <div class="step-card reveal">
+          <div class="step-number">01</div>
+          <div class="step-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          </div>
+          <h3>Install Extension</h3>
+          <p>Click "Add to Chrome" and confirm the installation. Done in one click from the Chrome Web Store.</p>
+          <div class="step-connector"></div>
+        </div>
+
+        <div class="step-card reveal">
+          <div class="step-number">02</div>
+          <div class="step-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/><polyline points="10 17 15 12 10 7"/><line x1="15" y1="12" x2="3" y2="12"/></svg>
+          </div>
+          <h3>Click the Icon</h3>
+          <p>Find the 🌙 icon in your Chrome toolbar. Pin it for easy access on any tab you're browsing.</p>
+          <div class="step-connector"></div>
+        </div>
+
+        <div class="step-card reveal">
+          <div class="step-number">03</div>
+          <div class="step-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </div>
+          <h3>Enable Dark Mode</h3>
+          <p>Toggle the switch and watch any website instantly transform into a beautiful dark experience.</p>
+          <div class="step-connector"></div>
+        </div>
+
+        <div class="step-card reveal">
+          <div class="step-number">04</div>
+          <div class="step-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg>
+          </div>
+          <h3>Customize Settings</h3>
+          <p>Adjust brightness, contrast, pick a theme, and set a schedule. Make it truly yours.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       SCREENSHOTS
+  ═══════════════════════════════════════ -->
+  <section class="section section-alt" id="screenshots">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">Screenshots</div>
+        <h2>Beautiful on <span class="gradient-text">Every Website</span></h2>
+        <p>See how Dark Mode Pro looks across different types of websites.</p>
+      </div>
+      <div class="screenshots-slider reveal">
+        <div class="slider-track" id="sliderTrack">
+          <div class="slide">
+            <img src="/images/SS_DMP.png" alt="Facebook in dark mode" loading="lazy" />
+            <div class="slide-caption">📰 Facebook — Comfortable long-form reading</div>
+          </div>
+          <div class="slide">
+            <img src="/images/SS_DMP2.png" alt="E-commerce in dark mode" loading="lazy" />
+            <div class="slide-caption">🛍️ Shopping Sites — Easier on the eyes while you browse</div>
+          </div>
+          <div class="slide">
+            <img src="/images/SS_DMP3.png" alt="Youtube in dark mode" loading="lazy" />
+            <div class="slide-caption">⚙️ Youtube — Full control at your fingertips</div>
+          </div>
+          
+        </div>
+        <div class="slider-controls">
+          <button class="slider-btn" id="prevBtn" aria-label="Previous">&#8592;</button>
+          <div class="slider-dots" id="sliderDots"></div>
+          <button class="slider-btn" id="nextBtn" aria-label="Next">&#8594;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       BENEFITS
+  ═══════════════════════════════════════ -->
+  <section class="section" id="benefits">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">Benefits</div>
+        <h2>Why Your Eyes Will <span class="gradient-text">Thank You</span></h2>
+        <p>Dark Mode Pro isn't just about aesthetics — it's about your health and productivity.</p>
+      </div>
+      <div class="benefits-grid">
+
+        <div class="benefit-card reveal">
+          <div class="benefit-emoji">👁️</div>
+          <div class="benefit-content">
+            <h3>Reduce Eye Strain</h3>
+            <p>Bright white screens in dark rooms cause digital eye strain. Dark mode reduces the contrast between your screen and surroundings, letting your eyes relax.</p>
+            <div class="benefit-stat">73% reduction in eye fatigue</div>
+          </div>
+        </div>
+
+        <div class="benefit-card reveal">
+          <div class="benefit-emoji">📖</div>
+          <div class="benefit-content">
+            <h3>Better Readability</h3>
+            <p>Carefully tuned contrast ratios ensure text remains crisp and legible. Read articles, docs, and emails for longer without discomfort.</p>
+            <div class="benefit-stat">2x longer comfortable reading sessions</div>
+          </div>
+        </div>
+
+        <div class="benefit-card reveal">
+          <div class="benefit-emoji">🌙</div>
+          <div class="benefit-content">
+            <h3>Night-Friendly Browsing</h3>
+            <p>Reduce blue light exposure in the evening to protect your natural sleep cycle. Browse before bed without disrupting melatonin production.</p>
+            <div class="benefit-stat">Better sleep quality reported by users</div>
+          </div>
+        </div>
+
+        <div class="benefit-card reveal">
+          <div class="benefit-emoji">✨</div>
+          <div class="benefit-content">
+            <h3>Clean, Modern UI</h3>
+            <p>Dark mode isn't just functional — it looks stunning. Give every website a premium, modern feel with our intelligent theme engine.</p>
+            <div class="benefit-stat">6 handcrafted themes included</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       PRIVACY POLICY
+  ═══════════════════════════════════════ -->
+  <section class="section section-alt" id="privacy">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">Privacy</div>
+        <h2>Your Privacy is <span class="gradient-text">Our Priority</span></h2>
+        <p>We built Dark Mode Pro with a simple principle: your data is yours, always.</p>
+      </div>
+      <div class="privacy-grid">
+        <div class="privacy-highlights reveal">
+          <div class="privacy-badge">
+            <div class="privacy-badge-icon">🔒</div>
+            <div>
+              <strong>Zero Data Collection</strong>
+              <span>We collect absolutely nothing. No analytics, no telemetry, no crash reports sent to us.</span>
+            </div>
+          </div>
+          <div class="privacy-badge">
+            <div class="privacy-badge-icon">🚫</div>
+            <div>
+              <strong>No Tracking</strong>
+              <span>No cookies, no fingerprinting, no third-party scripts. Your browsing is completely private.</span>
+            </div>
+          </div>
+          <div class="privacy-badge">
+            <div class="privacy-badge-icon">💾</div>
+            <div>
+              <strong>Local Storage Only</strong>
+              <span>All your preferences and settings are stored locally on your device using Chrome's sync storage.</span>
+            </div>
+          </div>
+          <div class="privacy-badge">
+            <div class="privacy-badge-icon">🌐</div>
+            <div>
+              <strong>No Network Requests</strong>
+              <span>The extension never makes any network requests. It works entirely offline after installation.</span>
+            </div>
+          </div>
+        </div>
+        <div class="privacy-policy-box reveal">
+          <h3>Full Privacy Policy</h3>
+          <div class="policy-content">
+            <h4>1. Information We Collect</h4>
+            <p>Dark Mode Pro does <strong>not</strong> collect, transmit, or store any personal information. The extension operates entirely within your browser.</p>
+
+            <h4>2. Local Storage</h4>
+            <p>Your preferences (theme, brightness, per-site settings, schedule) are stored using Chrome's <code>chrome.storage.sync</code> API, which syncs across your Chrome profile. This data never leaves Google's infrastructure and is not accessible to us.</p>
+
+            <!-- <h4>3. Permissions Explained</h4>
+            <ul>
+              <li><strong>activeTab</strong> — Required to apply dark mode to the current tab you're viewing.</li>
+              <li><strong>storage</strong> — Required to save your preferences locally.</li>
+              <li><strong>scripting</strong> — Required to inject CSS/JS to transform page appearance.</li>
+              <li><strong>tabs</strong> — Required to detect when you switch tabs and apply per-site settings.</li>
+            </ul> -->
+
+            <h4>4. Third-Party Services</h4>
+            <p>We do not use any third-party analytics, advertising, or tracking services. No external scripts are loaded.</p>
+
+            <h4>5. Children's Privacy</h4>
+            <p>Our extension does not knowingly collect data from children under 13. No data is collected from any user.</p>
+
+            <h4>6. Changes to This Policy</h4>
+            <p>Any changes to this privacy policy will be reflected in the Chrome Web Store listing and in the extension's changelog.</p>
+
+            <h4>7. Contact</h4>
+            <p>Questions? Reach us at <a href="mailto:kkpareek92@gmail.com">kkpareek92@gmail.com</a></p>
+
+            <p class="policy-date">Last updated: April 2026</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       DOWNLOAD / CTA
+  ═══════════════════════════════════════ -->
+  <section class="section cta-section" id="download">
+    <div class="cta-glow"></div>
+    <div class="container">
+      <div class="cta-inner reveal">
+        <div class="cta-badge">Free Forever · No Account Required</div>
+        <h2>Start Browsing Comfortably <span class="gradient-text">Tonight</span></h2>
+        <p>Join 500,000+ users who've already made the switch. Install in seconds, customize in minutes.</p>
+        <div class="cta-buttons">
+          <a href="#" class="btn btn-primary btn-xl chrome-btn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="currentColor"/></svg>
+            <div class="chrome-btn-text">
+              <span class="chrome-btn-sub">Available on the</span>
+              <span class="chrome-btn-main">Chrome Web Store</span>
+            </div>
+          </a>
+          <a href="#" class="btn btn-outline btn-xl">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            Explore all our Chrome tools
+          </a>
+        </div>
+        <div class="cta-trust">
+          <span>✅ Free</span>
+          <span>✅ No account needed</span>
+          <span>✅ 100% private</span>
+          <span>✅ 4.9★ rating</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="nav-logo">
+          <span class="logo-icon">🌙</span>
+          <span>Dark Mode <strong>Pro</strong></span>
+        </a>
+        <p>Making the web easier on your eyes, one website at a time.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Twitter">𝕏</a>
+          <a href="https://github.com/kk-092" target="_blank" aria-label="GitHub">⌥</a>
+          <a href="#" aria-label="Discord">◈</a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Product</h4>
+          <a href="#features">Features</a>
+          <a href="#demo">Demo</a>
+          <a href="#screenshots">Screenshots</a>
+          <a href="#download">Download</a>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <a href="#how-it-works">How It Works</a>
+          <a href="#">FAQ</a>
+          <a href="#">Changelog</a>
+         <a href="mailto:kkpareek92@gmail.com">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <a href="#privacy">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Permissions</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <span>© 2025 Dark Mode Pro. All rights reserved.</span>
+        <span>Made with 🌙 for night owls everywhere</span>
+        <a href="mailto:kkpareek92@gmail.com">Contact US</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/script.js"></script>
+</body>
+</html>
